@@ -1,16 +1,14 @@
-import  { lazy} from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-
-
-const HomePage = lazy(() => import("./pages/HomePage"));
-const AboutUs = lazy(() => import("./pages/AboutUs"));
-const Academics = lazy(() => import("./pages/Academics"));
-const Admission = lazy(() => import("./pages/Admission"));
-const Faculty = lazy(() => import("./pages/Faculty"));
-const Gallery = lazy(() => import("./pages/Gallery"));
-const ContactUs = lazy(() => import("./pages/ContactUs"));
-const Students = lazy(() => import("./pages/students"));
+import HomePage from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import Academics from "./pages/Academics";
+import Admission from "./pages/Admission";
+import Faculty from "./pages/Faculty";
+import Gallery from "./pages/Gallery";
+import ContactUs from "./pages/ContactUs";
+import Students from "./pages/students";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +25,7 @@ function App() {
           <Route path="gallery" element={<Gallery />} />
           <Route path="contact" element={<ContactUs />} />
         </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

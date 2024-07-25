@@ -1,0 +1,22 @@
+.gallery {
+  text-align: center;
+}
+
+.gallery h2 {
+  margin-top: 0;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photos img {
+  width: 30%;
+  margin: 10px;
+}
+
+.filter {
+  margin: 20px 0;
+}
