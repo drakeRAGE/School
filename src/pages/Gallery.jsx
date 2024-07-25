@@ -75,7 +75,7 @@ const Gallery = () => {
     <div className="bg-gradient-to-r from-green-50 via-green-100 to-green-200 py-12 px-6 sm:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto bg-white shadow-2xl rounded-lg overflow-hidden">
         {/* Header Section */}
-        <div className="bg-gradient-to-r from-blue-900 to-blue-700 p-8 md:p-12 text-center text-white rounded-t-lg">
+        <div className="bg-gradient-to-r from-green-900 to-green-700 p-8 md:p-12 text-center text-white rounded-t-lg">
           <h1 className="text-5xl font-extrabold mb-4">
             <FaPhotoVideo className="inline-block mr-2 text-yellow-300 text-4xl" />
             Gallery
