@@ -22,25 +22,18 @@ To run this project locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/rakesh-jaiswal23/Springdale--Public-School-assignment.git
+   git clone https://github.com/drakeRAGE/School.git
 
    ```
 
-2. **Navigate inside directory**
-
-   ```bash
-   cd Springdale--Public-School-assignment
-
-   ```
-
-3. **Install dependecy**
+2. **Install dependecy**
 
    ```bash
    npm install
 
    ```
 
-4. **Run Project**
+3. **Run Project**
    ```bash
    npm run dev
    ```
