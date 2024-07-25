@@ -17,13 +17,13 @@ function App() {
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="/" element={<HomePage />} />
-          <Route path="about" element={<AboutUs />} />
-          <Route path="academic" element={<Academics />} />
-          <Route path="admission" element={<Admission />} />
-          <Route path="faculty" element={<Faculty />} />
-          <Route path="student" element={<Students />} />
-          <Route path="gallery" element={<Gallery />} />
-          <Route path="contact" element={<ContactUs />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/academic" element={<Academics />} />
+          <Route path="/admission" element={<Admission />} />
+          <Route path="/faculty" element={<Faculty />} />
+          <Route path="/student" element={<Students />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
       <Footer />
     </BrowserRouter>

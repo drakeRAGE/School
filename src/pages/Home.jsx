@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const HomePage = () => {
@@ -6,28 +6,21 @@ const HomePage = () => {
 
   const events = [
     {
-      title: 'Event 1',
+      title: 'Annual Sports Day - Celebrating Excellence in Sports',
       description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis laudantium
-      reiciendis dolorem officiis, molestiae magni ipsa aliquid debitis fuga
-      eligendi, distinctio tempore inventore nobis, velit assumenda omnis illum.
-      Asperiores, rem? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      Dolorem sunt suscipit repellendus eaque nesciunt, at quisquam voluptatibus
-      excepturi officia id illo reprehenderit ratione explicabo, quas odit atque
-      delectus. Doloribus, corporis.`,
+      reiciendis dolorem officiis, `,
       imgSrc:
-        'https://5.imimg.com/data5/GK/LR/EH/SELLER-1469653/college-event-management-service.jpg',
+        'https://lh5.googleusercontent.com/proxy/1P2YEpGLWLuNfisAxj_F9r694wXZ1R0onBDsrrbeyH5BULoQVQd1OCIdO1ip8UzhR8PHm555sSbkc_I2OXFhNs5R5iWCYegXhyzJNjg-Vw',
     },
     {
-      title: 'Event 2',
+      title: 'Science Exhibition - Showcasing Student Innovations',
       description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi neque quaerat
-      inventore aspernatur fugit veritatis ab dicta libero similique rem
-      accusantium porro quibusdam, provident dolorum repellendus tempora nam
-      perspiciatis.`,
+      inventore aspernatur`,
       imgSrc:
-        'https://www.ticketleap.com/wp-content/uploads/2024/01/62a8e9a50f19b73012512a91_college-students-hanging-out-on-campus.jpg',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPIFmmqxtDMBFGWISHWrEce5jg1VUJi7ThSA&s',
     },
     {
-      title: 'Event 3',
+      title: 'Cultural Fest - Embracing Diversity and Creativity',
       description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, laudantium.
       Expedita quo deserunt quia numquam veritatis nulla aliquam voluptates, earum
       magni repellat ab, nostrum animi sapiente beatae quibusdam, qui tempora.
@@ -35,7 +28,7 @@ const HomePage = () => {
       modi, adipisci atque maxime aliquam officia pariatur, rem unde dignissimos!
       Nostrum quae, rem non nihil praesentium perferendis aspernatur corporis?`,
       imgSrc:
-        'https://qph.cf2.quoracdn.net/main-qimg-4c8ec82a2e2215fd3935844c5952ff28-lq',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjCF73v_D7V7nlG3ZkMP6QsoUcNgdoyhDEXA&s',
     },
   ];
 
@@ -65,8 +58,8 @@ const HomePage = () => {
           alt="School Logo"
           className="logo w-28 h-28 mb-4"
         />
-        <h1 className="text-5xl font-extrabold mb-2 text-gray-800">Welcome to Coding School</h1>
-        <p className="text-xl text-gray-500">A place for Knowledge and Growth.</p>
+        <h1 className="text-5xl font-extrabold mb-2 text-gray-800">Welcome to Springdale School</h1>
+        <p className="text-xl text-gray-500">Building Tomorrow's Leaders Today.</p>
       </header>
 
       {/* Carousel */}
@@ -85,10 +78,6 @@ const HomePage = () => {
                 alt={event.title}
                 className="w-full h-full object-cover"
               />
-              <div className="carousel-caption absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-6 text-white">
-                <h3 className="text-3xl font-semibold mb-4">{event.title}</h3>
-                <p className="text-lg">{event.description}</p>
-              </div>
             </div>
           ))}
         </div>
@@ -125,7 +114,7 @@ const HomePage = () => {
             </div>
             <div className="program bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <img
-                src="https://images.unsplash.com/photo-1573497019153-1d5f751f9528?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fG11c2ljfGVufDB8fHx8MTY5MDIxMjEwMQ&ixlib=rb-1.2.1&q=80&w=1080"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJznnb6l-AgxGb7G9nSCTsSe6RGNSLLGCI9Q&s"
                 alt="Arts"
                 className="w-full h-48 object-cover mb-4 rounded-lg"
               />
@@ -136,7 +125,7 @@ const HomePage = () => {
             </div>
             <div className="program bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <img
-                src="https://images.unsplash.com/photo-1532687533732-bdb2d30c32f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fHNwb3J0fGVufDB8fHx8MTY5MDIxMjE1Ng&ixlib=rb-1.2.1&q=80&w=1080"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaqKhMzmXGiaXND8Cl4bn0Yda2vWGzwg6OzQ&s"
                 alt="Sports"
                 className="w-full h-48 object-cover mb-4 rounded-lg"
               />

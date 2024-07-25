@@ -1,14 +1,10 @@
-import React from 'react';
-// import schoolHistoryImage from './images/school-history.jpg'; // Replace with your image paths
-// import principalMessageImage from './images/principal-message.jpg'; // Replace with your image paths
-// import facilitiesImage from './images/facilities.jpg'; // Replace with your image paths
 
 const AboutUs = () => {
   return (
     <div className="bg-gray-100 py-12 px-6 sm:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
         {/* Header Section */}
-        <div className="bg-gradient-to-r from-green-900 to-green-700 p-8 md:p-12 p-6 md:p-12 text-center text-white">
+        <div className="bg-gradient-to-r from-green-900 to-green-700 p-6 md:p-12 text-center text-white">
           <h1 className="text-4xl font-extrabold mb-4">About Us</h1>
           <p className="text-lg md:text-xl">
             Learn more about our history, vision, mission, and the values that drive us. Discover the facilities and the commitment of our leadership towards creating a thriving educational environment.
@@ -27,22 +23,24 @@ const AboutUs = () => {
                 className="w-full h-48 object-cover mb-4 rounded-lg"
               />
               <h3 className="text-2xl font-semibold mb-4">Our History</h3>
-              <p className="text-gray-700 text-center">
-                Established in 1985, our school has a rich history of academic excellence and community involvement. We have continuously evolved to meet the changing needs of our students and the educational landscape.
+              <p className="text-gray-700 text-center">Founded in 1985, Springdale Public School has been dedicated to providing
+quality education and holistic development to students.
               </p>
             </div>
             <div className="vision bg-gray-200 p-6 rounded-lg shadow-lg flex flex-col items-center">
               <img
-                src="https://www.w3schools.com/w3images/education.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-tK9AL2RCeCQA0-cty3A1eb0TMWmpR7wNg&s"
                 alt="Vision"
                 className="w-full h-48 object-cover mb-4 rounded-lg"
               />
               <h3 className="text-2xl font-semibold mb-4">Our Vision & Mission</h3>
               <p className="text-gray-700 text-center">
-                Our vision is to create a nurturing and innovative learning environment. We are dedicated to inspiring students to achieve their highest potential and become leaders of tomorrow.
+                To create a learning environment that fosters academic excellence, critical
+thinking, and ethical values.
               </p>
               <p className="text-gray-700 text-center mt-4">
-                Our mission is to foster an environment of growth and learning, providing quality education and nurturing the future leaders of tomorrow.
+                To empower students with the knowledge, skills, and values needed to thrive
+in a dynamic world.
               </p>
             </div>
           </div>
@@ -54,13 +52,15 @@ const AboutUs = () => {
           <h2 className="text-3xl font-bold mb-8">Message from the Principal</h2>
           <div className="bg-white p-6 rounded-lg shadow-lg mx-auto max-w-2xl">
             <img
-              src="https://images.unsplash.com/photo-1562760466-cce511340a2e"
+              src="https://www.inspirationschoolkgm.org/images/MrAnurag%20Mathur2022_HOME.jpg"
+
               alt="Principal"
               className="w-24 h-24 mx-auto mb-4 rounded-full object-cover border-4 border-gray-200"
             />
             <h3 className="text-2xl font-semibold mb-4">Dr. Jane Smith</h3>
             <p className="text-gray-700">
-              "Welcome to our school! We are dedicated to providing an exceptional learning environment that supports and nurtures every student. Our commitment to excellence and continuous improvement drives us to create a thriving educational experience. We look forward to partnering with you on this exciting journey."
+              "At Springdale, we believe in nurturing the potential of every
+student and guiding them towards a successful future."
             </p>
           </div>
         </div>
@@ -72,7 +72,7 @@ const AboutUs = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="facility bg-gray-200 p-6 rounded-lg shadow-lg flex flex-col items-center">
               <img
-                src="https://images.unsplash.com/photo-1562906283-9e5b5bfa9c7f"
+                src="https://media.istockphoto.com/id/1005282482/photo/large-group-of-elementary-students-having-an-art-class-in-the-classroom.jpg?s=612x612&w=0&k=20&c=6141RFZjv_WlL-p4fVl15DV9zpSpJPnWnms6e-Mr_zI="
                 alt="Classrooms"
                 className="w-full h-48 object-cover mb-4 rounded-lg"
               />
@@ -83,7 +83,7 @@ const AboutUs = () => {
             </div>
             <div className="facility bg-gray-200 p-6 rounded-lg shadow-lg flex flex-col items-center">
               <img
-                src="https://images.unsplash.com/photo-1575861540076-70dcf0d0e7b4"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTRT-XH2GEXRGqZGnMnoyrh_cIod0CuEM0gA&s"
                 alt="Laboratories"
                 className="w-full h-48 object-cover mb-4 rounded-lg"
               />
@@ -94,11 +94,11 @@ const AboutUs = () => {
             </div>
             <div className="facility bg-gray-200 p-6 rounded-lg shadow-lg flex flex-col items-center">
               <img
-                src="https://www.maitreyi.ac.in/assets/front/images/mainbanner/slide1.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUhhuGXLUD9L4456kTFhUIsChmUQN1l1dj5A&s"
                 alt="Recreational Areas"
                 className="w-full h-48 object-cover mb-4 rounded-lg"
               />
-              <h3 className="text-xl font-semibold mb-4">Recreational Areas</h3>
+              <h3 className="text-xl font-semibold mb-4">Sports Facility</h3>
               <p className="text-gray-700 text-center">
                 Our campus features spacious recreational areas, including sports fields, a gymnasium, and a library, to promote physical activity and well-rounded development.
               </p>

@@ -1,8 +1,3 @@
-import React from 'react';
-// import curriculumImage from './images/curriculum.jpg'; // Replace with your image paths
-// import apCoursesImage from './images/ap-courses.jpg'; // Replace with your image paths
-// import extracurricularImage from './images/extracurricular.jpg'; // Replace with your image paths
-// import supportServicesImage from './images/support-services.jpg'; // Replace with your image paths
 
 const Academics = () => {
   return (

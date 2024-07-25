@@ -1,7 +1,3 @@
-import React from 'react';
-// import studentLifeImage from './images/student-life.jpg'; // Replace with your image paths
-// import achievementsImage from './images/achievements.jpg'; // Replace with your image paths
-// import councilImage from './images/student-council.jpg'; // Replace with your image paths
 
 const Students = () => {
   return (
@@ -24,7 +20,7 @@ const Students = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             {/* Extracurricular Activities Card */}
             <div className="bg-white shadow-xl rounded-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-2xl border border-gray-200">
-              <img src={'https://www.maitreyi.ac.in/assets/front/images/mainbanner/slide1.jpg'} alt="Extracurricular Activities" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src={'https://www.parents.com/thmb/GHz8gzrAE4mxg82egqeFuVeqiiI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RoboticsSTEMprogramkids-fd6b3d55111d48ecbbd96614728e4cac.jpg'} alt="Extracurricular Activities" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-4 text-gray-900">Extracurricular Activities</h3>
                 <p className="text-gray-700 mb-4">
@@ -34,7 +30,7 @@ const Students = () => {
             </div>
             {/* Clubs Card */}
             <div className="bg-white shadow-xl rounded-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-2xl border border-gray-200">
-              <img src={'https://www.example.com/clubs.jpg'} alt="Clubs and Societies" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCjTXTiWDLewi44nrOIfgURYcfZ7DqAd3acw&s'} alt="Clubs and Societies" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-4 text-gray-900">Clubs and Societies</h3>
                 <p className="text-gray-700 mb-4">
@@ -44,7 +40,7 @@ const Students = () => {
             </div>
             {/* Societies Card */}
             <div className="bg-white shadow-xl rounded-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-2xl border border-gray-200">
-              <img src={'https://www.example.com/societies.jpg'} alt="Student Societies" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src={'https://www.exeter.ac.uk/v8media/recruitmentsites/images/studentlife/exepose-930.jpg'} alt="Student Societies" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-4 text-gray-900">Student Societies</h3>
                 <p className="text-gray-700 mb-4">
@@ -67,7 +63,7 @@ const Students = () => {
               <div className="flex items-center mb-4">
                 <div className="bg-blue-100 text-blue-600 p-4 rounded-full mr-4">
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-900">National Science Fair Winner</h3>
