@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "start": "npm start"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
